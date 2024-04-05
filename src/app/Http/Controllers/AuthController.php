@@ -21,6 +21,15 @@ class AuthController extends Controller implements HasMiddleware
         ];
     }
 
+    /**
+     * @OA\Post(
+     *     path="/auth/login",
+     *     summary="Authenticate and return token",
+     *     tags={"Auth"},
+     *     @OA\Response(response=200, description="Successful operation"),
+     *     @OA\Response(response=401, description="Unauthenticated")
+     * )
+     */
     public function login(Request $request)
     {
         $validated = $request->validate([
