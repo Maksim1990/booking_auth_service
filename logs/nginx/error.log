@@ -1,0 +1,428 @@
+2024/03/29 09:17:04 [notice] 1#1: using the "epoll" event method
+2024/03/29 09:17:04 [notice] 1#1: nginx/1.23.4
+2024/03/29 09:17:04 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/03/29 09:17:04 [notice] 1#1: OS: Linux 6.6.16-linuxkit
+2024/03/29 09:17:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/03/29 09:17:04 [notice] 1#1: start worker processes
+2024/03/29 09:17:04 [notice] 1#1: start worker process 20
+2024/03/29 09:17:04 [notice] 1#1: start worker process 21
+2024/03/29 09:17:04 [notice] 1#1: start worker process 22
+2024/03/29 09:17:04 [notice] 1#1: start worker process 23
+2024/03/29 09:17:04 [notice] 1#1: start worker process 24
+2024/03/29 09:17:04 [notice] 1#1: start worker process 25
+2024/03/29 09:17:04 [notice] 1#1: start worker process 26
+2024/03/29 09:33:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/03/29 09:33:11 [notice] 20#20: gracefully shutting down
+2024/03/29 09:33:11 [notice] 26#26: gracefully shutting down
+2024/03/29 09:33:11 [notice] 23#23: gracefully shutting down
+2024/03/29 09:33:11 [notice] 22#22: gracefully shutting down
+2024/03/29 09:33:11 [notice] 21#21: gracefully shutting down
+2024/03/29 09:33:11 [notice] 25#25: gracefully shutting down
+2024/03/29 09:33:11 [notice] 24#24: gracefully shutting down
+2024/03/29 09:33:11 [notice] 20#20: exiting
+2024/03/29 09:33:11 [notice] 26#26: exiting
+2024/03/29 09:33:11 [notice] 23#23: exiting
+2024/03/29 09:33:11 [notice] 22#22: exiting
+2024/03/29 09:33:11 [notice] 21#21: exiting
+2024/03/29 09:33:11 [notice] 25#25: exiting
+2024/03/29 09:33:11 [notice] 24#24: exiting
+2024/03/29 09:33:11 [notice] 24#24: exit
+2024/03/29 09:33:11 [notice] 20#20: exit
+2024/03/29 09:33:11 [notice] 26#26: exit
+2024/03/29 09:33:11 [notice] 23#23: exit
+2024/03/29 09:33:11 [notice] 22#22: exit
+2024/03/29 09:33:11 [notice] 21#21: exit
+2024/03/29 09:33:11 [notice] 25#25: exit
+2024/03/29 09:33:11 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/03/29 09:33:11 [notice] 1#1: worker process 20 exited with code 0
+2024/03/29 09:33:11 [notice] 1#1: worker process 23 exited with code 0
+2024/03/29 09:33:11 [notice] 1#1: signal 29 (SIGIO) received
+2024/03/29 09:33:11 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/03/29 09:33:11 [notice] 1#1: worker process 24 exited with code 0
+2024/03/29 09:33:11 [notice] 1#1: signal 29 (SIGIO) received
+2024/03/29 09:33:11 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/03/29 09:33:11 [notice] 1#1: worker process 26 exited with code 0
+2024/03/29 09:33:11 [notice] 1#1: signal 29 (SIGIO) received
+2024/03/29 09:33:11 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/03/29 09:33:11 [notice] 1#1: worker process 21 exited with code 0
+2024/03/29 09:33:11 [notice] 1#1: worker process 22 exited with code 0
+2024/03/29 09:33:11 [notice] 1#1: worker process 25 exited with code 0
+2024/03/29 09:33:11 [notice] 1#1: exit
+2024/03/29 09:33:11 [notice] 1#1: using the "epoll" event method
+2024/03/29 09:33:11 [notice] 1#1: nginx/1.23.4
+2024/03/29 09:33:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/03/29 09:33:11 [notice] 1#1: OS: Linux 6.6.16-linuxkit
+2024/03/29 09:33:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/03/29 09:33:11 [notice] 1#1: start worker processes
+2024/03/29 09:33:11 [notice] 1#1: start worker process 20
+2024/03/29 09:33:11 [notice] 1#1: start worker process 21
+2024/03/29 09:33:11 [notice] 1#1: start worker process 22
+2024/03/29 09:33:11 [notice] 1#1: start worker process 23
+2024/03/29 09:33:11 [notice] 1#1: start worker process 24
+2024/03/29 09:33:11 [notice] 1#1: start worker process 25
+2024/03/29 09:33:11 [notice] 1#1: start worker process 26
+2024/03/29 09:33:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/03/29 09:33:47 [notice] 20#20: gracefully shutting down
+2024/03/29 09:33:47 [notice] 20#20: exiting
+2024/03/29 09:33:47 [notice] 26#26: gracefully shutting down
+2024/03/29 09:33:47 [notice] 26#26: exiting
+2024/03/29 09:33:47 [notice] 22#22: gracefully shutting down
+2024/03/29 09:33:47 [notice] 24#24: gracefully shutting down
+2024/03/29 09:33:47 [notice] 24#24: exiting
+2024/03/29 09:33:47 [notice] 21#21: gracefully shutting down
+2024/03/29 09:33:47 [notice] 21#21: exiting
+2024/03/29 09:33:47 [notice] 25#25: gracefully shutting down
+2024/03/29 09:33:47 [notice] 25#25: exiting
+2024/03/29 09:33:47 [notice] 23#23: gracefully shutting down
+2024/03/29 09:33:47 [notice] 20#20: exit
+2024/03/29 09:33:47 [notice] 26#26: exit
+2024/03/29 09:33:47 [notice] 22#22: exiting
+2024/03/29 09:33:47 [notice] 24#24: exit
+2024/03/29 09:33:47 [notice] 21#21: exit
+2024/03/29 09:33:47 [notice] 25#25: exit
+2024/03/29 09:33:47 [notice] 23#23: exiting
+2024/03/29 09:33:47 [notice] 22#22: exit
+2024/03/29 09:33:47 [notice] 23#23: exit
+2024/03/29 09:33:47 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/03/29 09:33:47 [notice] 1#1: worker process 25 exited with code 0
+2024/03/29 09:33:47 [notice] 1#1: worker process 26 exited with code 0
+2024/03/29 09:33:47 [notice] 1#1: signal 29 (SIGIO) received
+2024/03/29 09:33:47 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/03/29 09:33:47 [notice] 1#1: worker process 20 exited with code 0
+2024/03/29 09:33:47 [notice] 1#1: worker process 24 exited with code 0
+2024/03/29 09:33:47 [notice] 1#1: signal 29 (SIGIO) received
+2024/03/29 09:33:47 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/03/29 09:33:47 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/03/29 09:33:47 [notice] 1#1: worker process 21 exited with code 0
+2024/03/29 09:33:47 [notice] 1#1: worker process 22 exited with code 0
+2024/03/29 09:33:47 [notice] 1#1: signal 29 (SIGIO) received
+2024/03/29 09:33:47 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/03/29 09:33:47 [notice] 1#1: worker process 23 exited with code 0
+2024/03/29 09:33:47 [notice] 1#1: exit
+2024/03/29 09:33:47 [notice] 1#1: using the "epoll" event method
+2024/03/29 09:33:47 [notice] 1#1: nginx/1.23.4
+2024/03/29 09:33:47 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/03/29 09:33:47 [notice] 1#1: OS: Linux 6.6.16-linuxkit
+2024/03/29 09:33:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/03/29 09:33:47 [notice] 1#1: start worker processes
+2024/03/29 09:33:47 [notice] 1#1: start worker process 20
+2024/03/29 09:33:47 [notice] 1#1: start worker process 21
+2024/03/29 09:33:47 [notice] 1#1: start worker process 22
+2024/03/29 09:33:47 [notice] 1#1: start worker process 23
+2024/03/29 09:33:47 [notice] 1#1: start worker process 24
+2024/03/29 09:33:47 [notice] 1#1: start worker process 25
+2024/03/29 09:33:47 [notice] 1#1: start worker process 26
+2024/03/29 09:39:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/03/29 09:39:01 [notice] 21#21: gracefully shutting down
+2024/03/29 09:39:01 [notice] 22#22: gracefully shutting down
+2024/03/29 09:39:01 [notice] 20#20: gracefully shutting down
+2024/03/29 09:39:01 [notice] 23#23: gracefully shutting down
+2024/03/29 09:39:01 [notice] 24#24: gracefully shutting down
+2024/03/29 09:39:01 [notice] 25#25: gracefully shutting down
+2024/03/29 09:39:01 [notice] 26#26: gracefully shutting down
+2024/03/29 09:39:01 [notice] 21#21: exiting
+2024/03/29 09:39:01 [notice] 22#22: exiting
+2024/03/29 09:39:01 [notice] 20#20: exiting
+2024/03/29 09:39:01 [notice] 23#23: exiting
+2024/03/29 09:39:01 [notice] 24#24: exiting
+2024/03/29 09:39:01 [notice] 25#25: exiting
+2024/03/29 09:39:01 [notice] 26#26: exiting
+2024/03/29 09:39:01 [notice] 26#26: exit
+2024/03/29 09:39:01 [notice] 21#21: exit
+2024/03/29 09:39:01 [notice] 22#22: exit
+2024/03/29 09:39:01 [notice] 20#20: exit
+2024/03/29 09:39:01 [notice] 23#23: exit
+2024/03/29 09:39:01 [notice] 24#24: exit
+2024/03/29 09:39:01 [notice] 25#25: exit
+2024/03/29 09:39:01 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/03/29 09:39:01 [notice] 1#1: worker process 22 exited with code 0
+2024/03/29 09:39:01 [notice] 1#1: signal 29 (SIGIO) received
+2024/03/29 09:39:01 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/03/29 09:39:01 [notice] 1#1: worker process 21 exited with code 0
+2024/03/29 09:39:01 [notice] 1#1: signal 29 (SIGIO) received
+2024/03/29 09:39:01 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/03/29 09:39:01 [notice] 1#1: worker process 20 exited with code 0
+2024/03/29 09:39:01 [notice] 1#1: worker process 23 exited with code 0
+2024/03/29 09:39:01 [notice] 1#1: worker process 24 exited with code 0
+2024/03/29 09:39:01 [notice] 1#1: signal 29 (SIGIO) received
+2024/03/29 09:39:01 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/03/29 09:39:01 [notice] 1#1: worker process 25 exited with code 0
+2024/03/29 09:39:01 [notice] 1#1: worker process 26 exited with code 0
+2024/03/29 09:39:01 [notice] 1#1: exit
+2024/03/29 09:39:02 [notice] 1#1: using the "epoll" event method
+2024/03/29 09:39:02 [notice] 1#1: nginx/1.23.4
+2024/03/29 09:39:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/03/29 09:39:02 [notice] 1#1: OS: Linux 6.6.16-linuxkit
+2024/03/29 09:39:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/03/29 09:39:02 [notice] 1#1: start worker processes
+2024/03/29 09:39:02 [notice] 1#1: start worker process 20
+2024/03/29 09:39:02 [notice] 1#1: start worker process 21
+2024/03/29 09:39:02 [notice] 1#1: start worker process 22
+2024/03/29 09:39:02 [notice] 1#1: start worker process 23
+2024/03/29 09:39:02 [notice] 1#1: start worker process 24
+2024/03/29 09:39:02 [notice] 1#1: start worker process 25
+2024/03/29 09:39:02 [notice] 1#1: start worker process 26
+2024/03/29 10:03:19 [info] 25#25: *9 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 10:06:40 [info] 26#26: *13 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 10:08:40 [info] 20#20: *16 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 10:11:48 [info] 20#20: *18 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 11:04:37 [info] 21#21: *22 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 11:26:17 [info] 20#20: *25 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 11:30:55 [info] 20#20: *33 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 11:35:43 [info] 20#20: *45 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 11:37:06 [info] 20#20: *48 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 11:39:43 [info] 20#20: *53 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 11:41:50 [info] 21#21: *57 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 11:43:09 [info] 22#22: *60 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 11:45:42 [info] 21#21: *66 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 11:48:30 [info] 21#21: *69 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 11:53:17 [info] 21#21: *74 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 11:56:28 [info] 21#21: *81 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 12:01:01 [info] 22#22: *93 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 12:05:07 [info] 21#21: *97 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 12:07:55 [info] 22#22: *101 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 12:09:20 [info] 21#21: *104 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 12:10:42 [info] 22#22: *107 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 12:16:03 [info] 21#21: *114 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 12:19:00 [info] 21#21: *118 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 12:24:09 [info] 22#22: *128 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 12:40:43 [info] 22#22: *136 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 12:42:34 [info] 22#22: *140 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 12:45:12 [info] 23#23: *143 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 12:47:00 [info] 23#23: *145 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 12:48:44 [info] 25#25: *150 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 12:51:04 [info] 23#23: *154 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 12:53:16 [info] 25#25: *160 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 12:57:14 [info] 25#25: *176 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 13:00:32 [info] 25#25: *188 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 13:03:11 [info] 25#25: *195 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 13:07:06 [info] 23#23: *200 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 13:11:14 [info] 23#23: *208 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 13:17:02 [info] 25#25: *220 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 13:18:55 [info] 25#25: *226 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 13:55:56 [info] 24#24: *231 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 13:57:57 [info] 24#24: *240 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 14:01:12 [info] 24#24: *245 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 14:05:01 [info] 24#24: *247 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 14:07:25 [info] 24#24: *251 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 14:13:18 [info] 25#25: *256 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 14:16:55 [info] 25#25: *268 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 14:24:51 [info] 24#24: *300 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 14:31:41 [info] 26#26: *335 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 14:37:45 [info] 26#26: *344 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 14:49:01 [info] 24#24: *348 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 14:54:22 [info] 24#24: *369 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 14:58:06 [info] 24#24: *380 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/03/29 18:12:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/03/29 18:12:29 [notice] 22#22: gracefully shutting down
+2024/03/29 18:12:29 [notice] 20#20: gracefully shutting down
+2024/03/29 18:12:29 [notice] 21#21: gracefully shutting down
+2024/03/29 18:12:29 [notice] 24#24: gracefully shutting down
+2024/03/29 18:12:29 [notice] 23#23: gracefully shutting down
+2024/03/29 18:12:29 [notice] 25#25: gracefully shutting down
+2024/03/29 18:12:29 [notice] 26#26: gracefully shutting down
+2024/03/29 18:12:29 [notice] 22#22: exiting
+2024/03/29 18:12:29 [notice] 20#20: exiting
+2024/03/29 18:12:29 [notice] 21#21: exiting
+2024/03/29 18:12:29 [notice] 24#24: exiting
+2024/03/29 18:12:29 [notice] 23#23: exiting
+2024/03/29 18:12:29 [notice] 25#25: exiting
+2024/03/29 18:12:29 [notice] 26#26: exiting
+2024/03/29 18:12:29 [notice] 22#22: exit
+2024/03/29 18:12:29 [notice] 20#20: exit
+2024/03/29 18:12:29 [notice] 21#21: exit
+2024/03/29 18:12:29 [notice] 24#24: exit
+2024/03/29 18:12:29 [notice] 23#23: exit
+2024/03/29 18:12:29 [notice] 25#25: exit
+2024/03/29 18:12:29 [notice] 26#26: exit
+2024/03/29 18:12:29 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/03/29 18:12:29 [notice] 1#1: worker process 20 exited with code 0
+2024/03/29 18:12:29 [notice] 1#1: worker process 23 exited with code 0
+2024/03/29 18:12:29 [notice] 1#1: signal 29 (SIGIO) received
+2024/03/29 18:12:29 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/03/29 18:12:29 [notice] 1#1: worker process 24 exited with code 0
+2024/03/29 18:12:29 [notice] 1#1: worker process 25 exited with code 0
+2024/03/29 18:12:29 [notice] 1#1: signal 29 (SIGIO) received
+2024/03/29 18:12:29 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/03/29 18:12:29 [notice] 1#1: worker process 22 exited with code 0
+2024/03/29 18:12:29 [notice] 1#1: signal 29 (SIGIO) received
+2024/03/29 18:12:29 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/03/29 18:12:29 [notice] 1#1: worker process 21 exited with code 0
+2024/03/29 18:12:29 [notice] 1#1: worker process 26 exited with code 0
+2024/03/29 18:12:29 [notice] 1#1: exit
+2024/03/30 03:08:22 [notice] 1#1: using the "epoll" event method
+2024/03/30 03:08:22 [notice] 1#1: nginx/1.23.4
+2024/03/30 03:08:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/03/30 03:08:22 [notice] 1#1: OS: Linux 6.6.16-linuxkit
+2024/03/30 03:08:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/03/30 03:08:22 [notice] 1#1: start worker processes
+2024/03/30 03:08:22 [notice] 1#1: start worker process 20
+2024/03/30 03:08:22 [notice] 1#1: start worker process 21
+2024/03/30 03:08:22 [notice] 1#1: start worker process 22
+2024/03/30 03:08:22 [notice] 1#1: start worker process 23
+2024/03/30 03:08:22 [notice] 1#1: start worker process 24
+2024/03/30 03:08:22 [notice] 1#1: start worker process 25
+2024/03/30 03:08:22 [notice] 1#1: start worker process 26
+2024/03/30 18:00:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/03/30 18:00:24 [notice] 20#20: gracefully shutting down
+2024/03/30 18:00:24 [notice] 22#22: gracefully shutting down
+2024/03/30 18:00:24 [notice] 22#22: exiting
+2024/03/30 18:00:24 [notice] 25#25: gracefully shutting down
+2024/03/30 18:00:24 [notice] 21#21: gracefully shutting down
+2024/03/30 18:00:24 [notice] 23#23: gracefully shutting down
+2024/03/30 18:00:24 [notice] 23#23: exiting
+2024/03/30 18:00:24 [notice] 26#26: gracefully shutting down
+2024/03/30 18:00:24 [notice] 20#20: exiting
+2024/03/30 18:00:24 [notice] 24#24: gracefully shutting down
+2024/03/30 18:00:24 [notice] 24#24: exiting
+2024/03/30 18:00:24 [notice] 22#22: exit
+2024/03/30 18:00:24 [notice] 25#25: exiting
+2024/03/30 18:00:24 [notice] 21#21: exiting
+2024/03/30 18:00:24 [notice] 23#23: exit
+2024/03/30 18:00:24 [notice] 26#26: exiting
+2024/03/30 18:00:24 [notice] 20#20: exit
+2024/03/30 18:00:24 [notice] 24#24: exit
+2024/03/30 18:00:24 [notice] 25#25: exit
+2024/03/30 18:00:24 [notice] 21#21: exit
+2024/03/30 18:00:24 [notice] 26#26: exit
+2024/03/30 18:00:24 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/03/30 18:00:24 [notice] 1#1: worker process 22 exited with code 0
+2024/03/30 18:00:24 [notice] 1#1: signal 29 (SIGIO) received
+2024/03/30 18:00:24 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/03/30 18:00:24 [notice] 1#1: worker process 23 exited with code 0
+2024/03/30 18:00:24 [notice] 1#1: signal 29 (SIGIO) received
+2024/03/30 18:00:24 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/03/30 18:00:24 [notice] 1#1: worker process 20 exited with code 0
+2024/03/30 18:00:24 [notice] 1#1: worker process 24 exited with code 0
+2024/03/30 18:00:24 [notice] 1#1: signal 29 (SIGIO) received
+2024/03/30 18:00:24 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/03/30 18:00:24 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/03/30 18:00:24 [notice] 1#1: worker process 21 exited with code 0
+2024/03/30 18:00:24 [notice] 1#1: worker process 25 exited with code 0
+2024/03/30 18:00:24 [notice] 1#1: worker process 26 exited with code 0
+2024/03/30 18:00:24 [notice] 1#1: exit
+2024/04/05 09:37:15 [notice] 1#1: using the "epoll" event method
+2024/04/05 09:37:15 [notice] 1#1: nginx/1.23.4
+2024/04/05 09:37:15 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/04/05 09:37:15 [notice] 1#1: OS: Linux 6.6.16-linuxkit
+2024/04/05 09:37:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/05 09:37:15 [notice] 1#1: start worker processes
+2024/04/05 09:37:15 [notice] 1#1: start worker process 20
+2024/04/05 09:37:15 [notice] 1#1: start worker process 21
+2024/04/05 09:37:15 [notice] 1#1: start worker process 22
+2024/04/05 09:37:15 [notice] 1#1: start worker process 23
+2024/04/05 09:37:15 [notice] 1#1: start worker process 24
+2024/04/05 09:37:15 [notice] 1#1: start worker process 25
+2024/04/05 09:37:15 [notice] 1#1: start worker process 26
+2024/04/05 11:13:14 [info] 21#21: *2 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/05 11:19:34 [info] 23#23: *5 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/05 11:23:39 [info] 24#24: *7 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/05 11:44:05 [info] 20#20: *17 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/05 11:46:02 [info] 20#20: *20 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/05 11:50:14 [info] 20#20: *23 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/05 11:52:09 [info] 20#20: *28 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/05 11:56:49 [info] 20#20: *31 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/05 12:03:53 [info] 20#20: *36 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/05 13:08:06 [info] 21#21: *40 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/05 13:11:09 [info] 20#20: *47 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/05 13:17:37 [info] 20#20: *53 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/05 13:23:37 [info] 21#21: *57 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/05 13:41:50 [info] 20#20: *64 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/05 13:59:45 [info] 21#21: *71 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/05 14:08:07 [info] 21#21: *83 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/05 14:18:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/05 14:18:01 [notice] 22#22: gracefully shutting down
+2024/04/05 14:18:01 [notice] 20#20: gracefully shutting down
+2024/04/05 14:18:01 [notice] 21#21: gracefully shutting down
+2024/04/05 14:18:01 [notice] 23#23: gracefully shutting down
+2024/04/05 14:18:01 [notice] 24#24: gracefully shutting down
+2024/04/05 14:18:01 [notice] 25#25: gracefully shutting down
+2024/04/05 14:18:01 [notice] 26#26: gracefully shutting down
+2024/04/05 14:18:01 [notice] 22#22: exiting
+2024/04/05 14:18:01 [notice] 20#20: exiting
+2024/04/05 14:18:01 [notice] 21#21: exiting
+2024/04/05 14:18:01 [notice] 23#23: exiting
+2024/04/05 14:18:01 [notice] 24#24: exiting
+2024/04/05 14:18:01 [notice] 25#25: exiting
+2024/04/05 14:18:01 [notice] 26#26: exiting
+2024/04/05 14:18:01 [notice] 22#22: exit
+2024/04/05 14:18:01 [notice] 20#20: exit
+2024/04/05 14:18:01 [notice] 21#21: exit
+2024/04/05 14:18:01 [notice] 23#23: exit
+2024/04/05 14:18:01 [notice] 24#24: exit
+2024/04/05 14:18:01 [notice] 25#25: exit
+2024/04/05 14:18:01 [notice] 26#26: exit
+2024/04/05 14:18:01 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/04/05 14:18:01 [notice] 1#1: worker process 20 exited with code 0
+2024/04/05 14:18:01 [notice] 1#1: worker process 22 exited with code 0
+2024/04/05 14:18:01 [notice] 1#1: worker process 24 exited with code 0
+2024/04/05 14:18:01 [notice] 1#1: worker process 26 exited with code 0
+2024/04/05 14:18:01 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/05 14:18:01 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/04/05 14:18:01 [notice] 1#1: worker process 21 exited with code 0
+2024/04/05 14:18:01 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/05 14:18:01 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/04/05 14:18:01 [notice] 1#1: worker process 23 exited with code 0
+2024/04/05 14:18:01 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/05 14:18:01 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/04/05 14:18:01 [notice] 1#1: worker process 25 exited with code 0
+2024/04/05 14:18:01 [notice] 1#1: exit
+2024/04/05 14:18:47 [notice] 1#1: using the "epoll" event method
+2024/04/05 14:18:47 [notice] 1#1: nginx/1.23.4
+2024/04/05 14:18:47 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/04/05 14:18:47 [notice] 1#1: OS: Linux 6.6.16-linuxkit
+2024/04/05 14:18:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/05 14:18:47 [notice] 1#1: start worker processes
+2024/04/05 14:18:47 [notice] 1#1: start worker process 20
+2024/04/05 14:18:47 [notice] 1#1: start worker process 21
+2024/04/05 14:18:47 [notice] 1#1: start worker process 22
+2024/04/05 14:18:47 [notice] 1#1: start worker process 23
+2024/04/05 14:18:47 [notice] 1#1: start worker process 24
+2024/04/05 14:18:47 [notice] 1#1: start worker process 25
+2024/04/05 14:18:47 [notice] 1#1: start worker process 26
+2024/04/05 14:21:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/05 14:21:46 [notice] 20#20: gracefully shutting down
+2024/04/05 14:21:46 [notice] 22#22: gracefully shutting down
+2024/04/05 14:21:46 [notice] 21#21: gracefully shutting down
+2024/04/05 14:21:46 [notice] 23#23: gracefully shutting down
+2024/04/05 14:21:46 [notice] 25#25: gracefully shutting down
+2024/04/05 14:21:46 [notice] 26#26: gracefully shutting down
+2024/04/05 14:21:46 [notice] 24#24: gracefully shutting down
+2024/04/05 14:21:46 [notice] 20#20: exiting
+2024/04/05 14:21:46 [notice] 20#20: exit
+2024/04/05 14:21:46 [notice] 22#22: exiting
+2024/04/05 14:21:46 [notice] 21#21: exiting
+2024/04/05 14:21:46 [notice] 23#23: exiting
+2024/04/05 14:21:46 [notice] 25#25: exiting
+2024/04/05 14:21:46 [notice] 26#26: exiting
+2024/04/05 14:21:46 [notice] 24#24: exiting
+2024/04/05 14:21:46 [notice] 22#22: exit
+2024/04/05 14:21:46 [notice] 21#21: exit
+2024/04/05 14:21:46 [notice] 23#23: exit
+2024/04/05 14:21:46 [notice] 25#25: exit
+2024/04/05 14:21:46 [notice] 26#26: exit
+2024/04/05 14:21:46 [notice] 24#24: exit
+2024/04/05 14:21:46 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/04/05 14:21:46 [notice] 1#1: worker process 21 exited with code 0
+2024/04/05 14:21:46 [notice] 1#1: worker process 20 exited with code 0
+2024/04/05 14:21:46 [notice] 1#1: worker process 23 exited with code 0
+2024/04/05 14:21:46 [notice] 1#1: worker process 24 exited with code 0
+2024/04/05 14:21:46 [notice] 1#1: worker process 26 exited with code 0
+2024/04/05 14:21:46 [notice] 1#1: worker process 22 exited with code 0
+2024/04/05 14:21:46 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/04/05 14:21:46 [notice] 1#1: worker process 25 exited with code 0
+2024/04/05 14:21:46 [notice] 1#1: exit
+2024/04/05 14:21:53 [notice] 1#1: using the "epoll" event method
+2024/04/05 14:21:53 [notice] 1#1: nginx/1.23.4
+2024/04/05 14:21:53 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/04/05 14:21:53 [notice] 1#1: OS: Linux 6.6.16-linuxkit
+2024/04/05 14:21:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/05 14:21:53 [notice] 1#1: start worker processes
+2024/04/05 14:21:53 [notice] 1#1: start worker process 20
+2024/04/05 14:21:53 [notice] 1#1: start worker process 21
+2024/04/05 14:21:53 [notice] 1#1: start worker process 22
+2024/04/05 14:21:53 [notice] 1#1: start worker process 23
+2024/04/05 14:21:53 [notice] 1#1: start worker process 24
+2024/04/05 14:21:53 [notice] 1#1: start worker process 25
+2024/04/05 14:21:53 [notice] 1#1: start worker process 26
+2024/04/05 14:21:57 [info] 20#20: *1 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
