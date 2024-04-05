@@ -21,6 +21,15 @@ class UserController extends Controller implements HasMiddleware
         ];
     }
 
+    /**
+     * @OA\Get(
+     *     path="/users",
+     *     summary="Get a list of users",
+     *     tags={"Users"},
+     *     @OA\Response(response=200, description="Successful operation"),
+     *     @OA\Response(response=401, description="Unauthenticated")
+     * )
+     */
     public function index()
     {
         return new UserCollection(User::where('type', UserType::USER->value)->get());
