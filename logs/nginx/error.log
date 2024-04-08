@@ -426,3 +426,35 @@
 2024/04/05 14:21:53 [notice] 1#1: start worker process 25
 2024/04/05 14:21:53 [notice] 1#1: start worker process 26
 2024/04/05 14:21:57 [info] 20#20: *1 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/08 07:40:49 [notice] 1#1: using the "epoll" event method
+2024/04/08 07:40:49 [notice] 1#1: nginx/1.23.4
+2024/04/08 07:40:49 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/04/08 07:40:49 [notice] 1#1: OS: Linux 6.6.16-linuxkit
+2024/04/08 07:40:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/08 07:40:49 [notice] 1#1: start worker processes
+2024/04/08 07:40:49 [notice] 1#1: start worker process 20
+2024/04/08 07:40:49 [notice] 1#1: start worker process 21
+2024/04/08 07:40:49 [notice] 1#1: start worker process 22
+2024/04/08 07:40:49 [notice] 1#1: start worker process 23
+2024/04/08 07:40:49 [notice] 1#1: start worker process 24
+2024/04/08 07:40:49 [notice] 1#1: start worker process 25
+2024/04/08 07:40:49 [notice] 1#1: start worker process 26
+2024/04/08 07:53:17 [info] 24#24: *13 client timed out (110: Connection timed out) while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/08 07:54:44 [info] 26#26: *17 client timed out (110: Connection timed out) while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/08 08:06:15 [info] 20#20: *20 client timed out (110: Connection timed out) while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/08 08:12:06 [info] 20#20: *28 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/08 08:12:43 [info] 21#21: *24 client timed out (110: Connection timed out) while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/08 08:15:41 [info] 20#20: *32 client timed out (110: Connection timed out) while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/08 08:19:00 [info] 21#21: *36 client timed out (110: Connection timed out) while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/08 08:21:00 [info] 21#21: *39 client timed out (110: Connection timed out) while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/08 08:21:19 [info] 20#20: *42 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/08 08:26:53 [info] 20#20: *60 client timed out (110: Connection timed out) while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/08 08:30:31 [info] 21#21: *63 client timed out (110: Connection timed out) while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/08 08:35:52 [info] 22#22: *69 client timed out (110: Connection timed out) while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/08 08:40:22 [info] 22#22: *73 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/08 08:45:15 [info] 22#22: *76 client timed out (110: Connection timed out) while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/08 08:45:20 [info] 21#21: *84 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/08 08:46:16 [info] 22#22: *81 client timed out (110: Connection timed out) while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/08 08:49:46 [info] 22#22: *89 client timed out (110: Connection timed out) while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/08 08:52:08 [info] 21#21: *93 client timed out (110: Connection timed out) while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2024/04/08 08:53:21 [info] 21#21: *99 client timed out (110: Connection timed out) while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
