@@ -4,6 +4,28 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
+/**
+ * @OA\Schema(
+ *     schema="UpdateUser",
+ *     title="Update User",
+ * 	@OA\Property(
+ *         property="first_name",
+ *         type="string"
+ *     ),
+ * 	@OA\Property(
+ *         property="last_name",
+ *         type="string"
+ *     ),
+ *  @OA\Property(
+ *         property="country",
+ *         type="string"
+ *    ),
+ *  @OA\Property(
+ *         property="phone",
+ *         type="string"
+ *    ),
+ * )
+ */
 class UpdateUserRequest extends FormRequest
 {
     /**

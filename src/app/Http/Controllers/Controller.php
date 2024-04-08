@@ -10,6 +10,14 @@ namespace App\Http\Controllers;
  * )
  * @OA\Server(
  *      url="/api/v1",
+ *  ),
+ * @OA\SecurityScheme(
+ *       securityScheme="bearerAuth",
+ *       in="header",
+ *       name="bearerAuth",
+ *       type="http",
+ *       scheme="bearer",
+ *       bearerFormat="JWT",
  *  )
  */
 abstract class Controller

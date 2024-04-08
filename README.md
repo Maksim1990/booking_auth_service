@@ -4,12 +4,15 @@ Authentication Microservice to Manage User Tokens, Access, Permission
 
 ### How to Start service locally
 
-1. Run a following ``make`` command
-   ``make install``
+1. If start a service first time then run following ``make`` command
+   ``make install_and_start``
 2. Run a following ``make`` command
 ``make start``
-2. In order to pre-populate local DB run the following command
-3. ``make db-seed``
+3. In order to pre-populate local DB run the following command
+``make db-seed``
+4. In order to re-generate OpenApi documentation run the following command
+``make api-docs-generate``
+5. API documentation could be open by the following link: ``http://localhost:8701/api/docs``
 
 ### How to Stop service locally
 

@@ -1,9 +1,13 @@
-install:
+install_and_start:
+	docker-compose up -d
 	docker exec app_php php artisan key:generate
 	docker exec app_php php artisan jwt:secret --force
 
 start:
 	docker-compose up -d
+
+db-seed:
+	docker exec app_php php artisan db:seed
 
 stop:
 	docker-compose down -v
