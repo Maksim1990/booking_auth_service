@@ -12,7 +12,7 @@ Authentication Microservice to Manage User Tokens, Access, Permission
 ``make db-seed``
 4. In order to re-generate OpenApi documentation run the following command
 ``make api-docs-generate``
-5. API documentation could be open by the following link: ``http://localhost:8701/api/docs``
+5. API documentation could be opened by the following link: ``http://localhost:8701/api/docs``
 
 ### How to Stop service locally
 
